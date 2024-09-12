@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+}
+.mainbody{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondmain{
+    background-color: white;
+    width: 25%;
+    height: 60%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.labels{
+    display: flex;
+    margin-left:10%;
+    margin-top: 3%;
+
+}
+.firstup{
+ display: flex;
+margin-left:10%;
+margin-bottom: -6%;
+margin-top: 5%;
+}
+.name{
+    width: 50%;
+     height: 8%;
+      margin-left: 10%;
+      margin-top: 4%;
+}
+.form-controls{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+@media (max-width: 600px) {
+    .secondmain {
+      width:70%;
+
+    }
+    .name{
+        margin-left: 18%;
+       
+        margin-top: 4%;
+    }
+   .labels{
+    display: flex;
+    margin-top: 4%;
+   }
+   .form-controls{
+    margin-left: 10%;
+   }
+   .firstup{
+    display: flex;
+    margin-top: 18%;
+
+   }
+   .form-group{
+   display: flex;
+   flex-direction: column; 
+   }
+}

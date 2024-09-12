@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div class="mainbody">
+  <div class="secondmain">
+    <p style="margin-left: 10%; margin-top: 10px;">FILL YOUR DETAILS</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label class="labels"  for="name">Enter the name</label>
+      <input name="name" class="name"  type="text" required>
+
+      <label class="labels" for="branch">Branch</label>
+      <input name="branch" class="name"  type="text" required>
+
+      <div class="form-group">
+        <label class="firstup" for="photo">Upload photo</label>
+        <input  type="file" name="photo" required class="form-controls">
+      </div>
+
+      <div class="form-group">
+        <label class="firstup"  for="proof">Upload Id proof</label>
+        <input  type="file" name="proof" required class="form-controls">
+      </div>
+
+      <div class="form-group">
+        <button style="margin-left: 40%; width: 20%; height: 50%; margin-top: 9%;" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
